@@ -21,7 +21,7 @@ export const Layout: FC<LayoutProps> = ({ children, title }) => {
           property="og:description"
           content={`This is a page about ${title}`}
         />
-        <meta property="og:image" content={`${origin}/img/banner.png`} />
+        <meta property="og:image" content={`${origin}/imgs/banner.png`} />
       </Head>
       <Navbar />
       <main style={{ padding: "0px 20px" }}>{children}</main>
